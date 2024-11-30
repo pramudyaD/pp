@@ -1,0 +1,98 @@
+/* body {
+    
+    font-family:'playfair display' Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+    font-style: italic;
+
+
+
+}
+h1 {
+    color: red;
+    text-align: center;
+    text-shadow: 2px -3px brown;
+
+}
+a {
+    font-size: 40px;
+    text-decoration: none;
+
+}
+a:visited{
+    color: black;
+    
+}
+a:hover{
+    color: blueviolet;
+}
+
+.peklas {
+    font-family:'playfair display' Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:larger;
+    text-align-last:center;
+    font-variant: small-caps;
+    font-style: italic;
+    text-decoration-line:underline;
+    text-decoration-color: aqua;
+    text-decoration-style:dotted;
+    text-decoration-thickness:2px;
+    text-transform: capitalize;
+    text-indent: 5%;
+    letter-spacing:3px;
+    line-height: 20px;
+    word-spacing: 30px;
+    white-space: wrap;
+}
+#idp {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+ul {
+    list-style-position: inside;
+    border: 1px solid #001133;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    background-size: 2px 2px;
+    list-style-image: url('/public/nama.jpg');
+
+} */
+
+.container {
+    display: flex;
+    justify-content:end ;
+    /* flex-direction: column; */
+}
+
+.box1 {
+    width:20%;
+    height: 100px;
+    background-color: bisque;
+}
+
+.box2 {
+    width:20%;
+    background-color: rgb(128, 80, 22);
+}
+
+input[type] {
+    width: 100% ;
+    padding: 15px;
+    margin: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+
+
+}
+
+input[type]:focus{
+outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: blanchedalmond;
+}
